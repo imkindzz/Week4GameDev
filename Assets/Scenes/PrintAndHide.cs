@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class PrintAndHide : MonoBehaviour
 {
     public new int i = 3;
     public GameObject ObjName;
+    public Renderer rend;
     // Start is called before the first frame update
     void Start()
     {
